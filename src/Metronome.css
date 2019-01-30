@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: tomato;
+}
+
+.metronome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff750f;
+  text-align: center;
+  max-width: 375px;
+  margin: 40px auto;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+@media screen and (min-width:800px) {
+  .metronome {
+    padding: 60px 40px;
+  }
+.mystuff h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  letter-spacing: 3px;
+
+}
+}
+.mystuff h3 {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  font-weight:  bolder;
+}
+
+
+
+
+.bpm-slider div {
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight:  bolder;
+  font-family: 'Roboto Mono';
+}
+
+.bpm-slider input {
+  width: 100%;
+  margin: 10px;
+}
+.metronome button:before {
+  content:'';
+  color: ;
+}
+
+.metronome button {
+  background: #c94d46;
+  padding: 10px;
+  border: 1px solid #832420;
+  border-radius: 10px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight:  bolder;
+  font-family: 'Roboto Mono';
+}
+
+
+.metronome button:after {
+  content:'';
+  background-color:transparent;
+}
